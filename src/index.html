@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Makeup list</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <div class="topnav">
+      <a href="homepage.html">Home</a>
+      <a href="makeuphana.html">Product</a>
+      <a href="index.html">Makeup List</a>
+      <a href="#" onclick="self.close();">Exit</a>
+    </div>
+  <!-- navbar section  -->
+    <div class="mainWrapper">
+    
+      <h1>Top 5 Makeup List</h1>
+
+      <form>
+        <div class="form-group">
+          <label>Makeup Name</label>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Description</label>
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+        </div>
+      </form>
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+    </div>
+
+    <script src="main.js">
+      
+    </script>
+  </body>
+</html>
+
+

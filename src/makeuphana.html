@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="makeuphana.css" />
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <div class="topnav">
+      <a href="homepage.html">Home</a>
+      <a href="makeuphana.html">Product</a>
+      <a href="index.html">Makeup List</a>
+      <a href="#" onclick="self.close();">Exit</a>
+    </div>
+    <!-- navbar section  -->
+  
+    <div class="container">
+      <div class="search-container">
+      <h1>Makeup Brand</h1>
+      <h4></h4>
+      <input type="text" id="brand" placeholder="Please enter brand makeup">
+      <button onclick="usermakeup()">Search</button><br><br>
+    </div>
+
+    <div id="display">the brand of makeup : </div><br>
+	  <div id="display1">the product type : </div><br>
+      <div id="display2">the product name : </div><br>
+      <div id="display3">description : </div><br>
+      <div id="display4">price : </div><br>
+      <div id="display5">rating : </div><br>
+
+  </body>
+  <script src="apimakeup.js"></script>
+</html>
